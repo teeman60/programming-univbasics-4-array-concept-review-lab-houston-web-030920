@@ -3,8 +3,9 @@ def find_element_index(array, value_to_find)
     if ele == value_to_find
       return array.index(ele)
     end
-    return nil
+    
   end
+  return nil
 end
 
 def find_max_value(array)
